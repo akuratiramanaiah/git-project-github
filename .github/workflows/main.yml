@@ -7,13 +7,13 @@ jobs:
    runs-on: ubuntu-latest
    steps:
     - name: chekout-code
-      uses: action/checkout@v4
+      uses: actions/checkout@v4
     - name: setup Java
       uses: actions/setip-java@v4
       with:
        distribution: 'temurin'
        java-version: '17'
-    - name: Compile Java Code
+    - name: Compile java code
       run: javac app.java
     - name: Run Java Program
       run: java app
