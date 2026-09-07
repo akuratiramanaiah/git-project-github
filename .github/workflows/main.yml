@@ -1,7 +1,7 @@
 name: Java CI/CD
 on:
   push:
-    branches: [ "main" ]  
+    branches: ["main"]  
 jobs:
   biuld:
    runs-on: ubuntu-latest
