@@ -8,7 +8,7 @@ jobs:
    steps:
     - name: chekout-code
       uses: actions/checkout@v4
-    - name: setup Java
+    - name: set up Java
       uses: actions/setip-java@v4
       with:
        distribution: 'temurin'
